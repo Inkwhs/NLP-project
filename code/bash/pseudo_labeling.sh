@@ -33,7 +33,7 @@ esac
 
 
 seed=42
-precision=bf16-mixed
+precision=16-mixed
 eval_batch_size=500
 max_seq_length=100
 

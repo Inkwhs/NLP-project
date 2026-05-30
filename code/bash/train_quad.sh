@@ -58,7 +58,7 @@ fi
 
 
 
-precision=bf16-mixed
+precision=16-mixed
 gradient_clip_val=1
 warmup_steps=0
 weight_decay=0.01

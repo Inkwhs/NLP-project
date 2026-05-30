@@ -119,7 +119,7 @@ class DataModule(pl.LightningDataModule):
         import spacy 
         import re
 
-        nlp = spacy.load('en_core_web_sm')
+        nlp = spacy.load('/home/xuyang_lab/cse12212752/project/NLP-project/.venv/lib/python3.11/site-packages/en_core_web_sm/en_core_web_sm-3.8.0')
         nlp.add_pipe('sentencizer')
 
         min_length = 5

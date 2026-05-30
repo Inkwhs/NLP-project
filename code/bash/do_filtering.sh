@@ -25,7 +25,7 @@ data_dir="../output/quad/pseudo_labeled/${dataset}.json"
 model_name_or_path="../output/scorer/model/dataset=${dataset},b=${subname},seed=42"
 output_dir="../output/filter/"
 
-precision=bf16-mixed
+precision=16-mixed
 max_seq_length=100
 eval_batch_size=80
 seed=42
